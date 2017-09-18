@@ -1,0 +1,45 @@
+.color-purple{
+	color: #2A2E5A !important;
+}
+
+#js__scroll-to-section{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8d9b0+0,bd9d68+49 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8d9b0+0,bd9d68+78 */
+background: #f8d9b0; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f8d9b0 0%, #bd9d68 78%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f8d9b0 0%,#bd9d68 78%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f8d9b0 0%,#bd9d68 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8d9b0', endColorstr='#bd9d68',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding: 10%;
+}
+
+.kar-welcome{
+	color: #1b58a8 !important;
+
+}
+
+.kar-icon{
+	font-size: 28px;
+	color: #1b58a8;
+}
+
+.kar-rk{
+	color: #DFB275;
+}
+
+.g-promo-section{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#46435e+1,a6b1bf+98 */
+background: #46435e; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #46435e 1%, #a6b1bf 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #46435e 1%,#a6b1bf 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #46435e 1%,#a6b1bf 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46435e', endColorstr='#a6b1bf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.kar-desc-txt{
+	color: #F8D9B0 !important;
+}
+
+.kar-txt-ft{
+	color: #333 !important;
+}

@@ -6,13 +6,21 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
+var about = require('./routes/about');
+var estate = require('./routes/estate');
+var construction = require('./routes/construction');
+var consulting = require('./routes/consulting');
+var finance = require('./routes/finance');
+var portfolio = require('./routes/portfolio');
+var contacts = require('./routes/contacts');
+var career = require('./routes/career');
+
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', '');
+app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -23,7 +31,15 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/about', about);
+app.use('/estate', estate);
+app.use('/construction', construction );
+app.use('/consulting', consulting);
+app.use('/finance', finance);
+app.use('/portfolio', portfolio);
+app.use('/contacts', contacts);
+app.use('/career', career);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
